@@ -1,0 +1,34 @@
+{
+    "name": "obb12/laravel-friendships",
+    "description": "This package gives Eloqent models the ability to manage their friendships.",
+    "keywords": ["laravel", "friendships", "friend-system", "friends", "eloqent"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Interfriendz",
+            "email": "omar.bb@hotmail.fi"
+        }
+    ],
+    "autoload-dev": {
+        "classmap": [
+            "vendor/laravel/laravel/tests/TestCase.php"
+        ],
+        "files": [
+            "tests/helpers.php"
+        ]
+    },
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "5.*",
+        "fzaninotto/faker": "~1.4",
+        "laravel/laravel": "5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hootlex\\Friendships\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
